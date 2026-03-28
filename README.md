@@ -8,7 +8,7 @@ This Claude Code plugin provides a comprehensive expert team that audits, valida
 
 ## 🎯 What This Plugin Does
 
-The **AI Agent SaaS Expert** plugin provides 7 specialized agents and 8 knowledge skills that help you:
+The **AI Agent SaaS Expert** plugin provides 8 specialized agents and 8 knowledge skills that help you:
 
 ✅ **Audit architecture** - Validate monorepo structure, routing patterns, database design
 ✅ **Ensure production readiness** - Check security, monitoring, error handling, scaling
@@ -76,7 +76,7 @@ User: "Review my monorepo architecture"
 Agent: *Analyzes package.json, tsconfig, workspace structure, generates report with recommendations*
 ```
 
-### 2. **production-readiness-auditor**
+### 2. **production-readiness**
 Comprehensive production checklist: security, monitoring, error handling, scaling.
 
 **When to use:**
@@ -98,7 +98,7 @@ Verifies sandbox integration (Daytona/Docker), health checks, resource allocatio
 - When sandbox issues occur
 - Before scaling sandbox infrastructure
 
-### 4. **routing-optimizer**
+### 4. **nextjs-routing-optimizer**
 Analyzes Next.js App Router patterns, dynamic/static routing, middleware.
 
 **When to use:**
@@ -106,7 +106,7 @@ Analyzes Next.js App Router patterns, dynamic/static routing, middleware.
 - Performance optimization
 - After Next.js upgrades
 
-### 5. **security-hardening-expert**
+### 5. **security-hardening**
 Audits authentication, API security, input validation, SQL injection prevention.
 
 **When to use:**
@@ -114,7 +114,7 @@ Audits authentication, API security, input validation, SQL injection prevention.
 - After auth changes
 - Before handling sensitive data
 
-### 6. **performance-tuning-specialist**
+### 6. **performance-tuning**
 Analyzes caching strategies, database optimization, bundle size, Core Web Vitals.
 
 **When to use:**
@@ -122,7 +122,15 @@ Analyzes caching strategies, database optimization, bundle size, Core Web Vitals
 - High database latency
 - Poor Core Web Vitals scores
 
-### 7. **integration-validator**
+### 7. **sandbox-validator**
+Validates sandbox container health, service status, and resource utilization.
+
+**When to use:**
+- Troubleshooting sandbox issues
+- Monitoring container health
+- Optimizing resource allocation
+
+### 8. **integration-validator**
 Verifies LLM integrations, external APIs, webhooks, third-party services.
 
 **When to use:**

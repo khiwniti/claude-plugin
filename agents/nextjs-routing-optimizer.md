@@ -1,34 +1,6 @@
 ---
 name: nextjs-routing-optimizer
-description: Use this agent when analyzing Next.js App Router patterns, optimizing routing performance, or reviewing route organization. Examples: <example>Context: User is adding new routes to their Next.js app
-user: "I'm adding some new dashboard routes and want to make sure I'm organizing them correctly"
-assistant: "I'll analyze your current route structure and provide recommendations for the new routes."
-<commentary>
-The agent should trigger because this involves route organization and structure review, which are core responsibilities of the routing optimizer.
-</commentary>
-assistant: "I'll use the nextjs-routing-optimizer agent to analyze your current route structure and provide best practice recommendations for organizing the new dashboard routes."
-</example> <example>Context: Application experiencing slow route loads
-user: "Some of our routes are loading really slowly. Can you help me figure out why?"
-assistant: "Let me investigate the routing performance issues."
-<commentary>
-Performance optimization for slow routes is a primary trigger. The agent needs to analyze dynamic vs static routes, bundle sizes, and middleware impact.
-</commentary>
-assistant: "I'll use the nextjs-routing-optimizer agent to analyze your route performance, including dynamic/static optimization, bundle sizes, and middleware patterns."
-</example> <example>Context: After Next.js version upgrade
-user: "We just upgraded to Next.js 15 and want to ensure our routing follows the latest best practices"
-assistant: "I'll review your routing patterns against Next.js 15 standards."
-<commentary>
-Post-upgrade review is a key trigger to ensure routing patterns align with the latest framework capabilities and best practices.
-</commentary>
-assistant: "I'll use the nextjs-routing-optimizer agent to audit your routes against Next.js 15+ App Router best practices and identify optimization opportunities."
-</example> <example>Context: User asks about middleware performance
-user: "Is there a way to optimize our middleware.ts? It seems to be adding latency"
-assistant: "Let me analyze your middleware configuration."
-<commentary>
-Middleware optimization is explicitly mentioned as a trigger. This requires specialized analysis of execution patterns and performance impact.
-</commentary>
-assistant: "I'll use the nextjs-routing-optimizer agent to analyze your middleware.ts configuration and identify performance optimizations."
-</example>
+description: Use this agent when analyzing Next.js App Router patterns, optimizing routing performance, or reviewing route organization. Examples: <example>Context: User is adding new routes to their Next.js app user: "I'm adding some new dashboard routes and want to make sure I'm organizing them correctly" assistant: "I'll analyze your current route structure and provide recommendations for the new routes." <commentary> The agent should trigger because this involves route organization and structure review, which are core responsibilities of the routing optimizer. </commentary> assistant: "I'll use the nextjs-routing-optimizer agent to analyze your current route structure and provide best practice recommendations for organizing the new dashboard routes." </example> <example>Context: Application experiencing slow route loads user: "Some of our routes are loading really slowly. Can you help me figure out why?" assistant: "Let me investigate the routing performance issues." <commentary> Performance optimization for slow routes is a primary trigger. The agent needs to analyze dynamic vs static routes, bundle sizes, and middleware impact. </commentary> assistant: "I'll use the nextjs-routing-optimizer agent to analyze your route performance, including dynamic/static optimization, bundle sizes, and middleware patterns." </example> <example>Context: After Next.js version upgrade user: "We just upgraded to Next.js 15 and want to ensure our routing follows the latest best practices" assistant: "I'll review your routing patterns against Next.js 15 standards." <commentary> Post-upgrade review is a key trigger to ensure routing patterns align with the latest framework capabilities and best practices. </commentary> assistant: "I'll use the nextjs-routing-optimizer agent to audit your routes against Next.js 15+ App Router best practices and identify optimization opportunities." </example> <example>Context: User asks about middleware performance user: "Is there a way to optimize our middleware.ts? It seems to be adding latency" assistant: "Let me analyze your middleware configuration." <commentary> Middleware optimization is explicitly mentioned as a trigger. This requires specialized analysis of execution patterns and performance impact. </commentary> assistant: "I'll use the nextjs-routing-optimizer agent to analyze your middleware.ts configuration and identify performance optimizations." </example>
 model: inherit
 color: cyan
 tools: ["Read", "Glob", "Grep", "Bash"]
